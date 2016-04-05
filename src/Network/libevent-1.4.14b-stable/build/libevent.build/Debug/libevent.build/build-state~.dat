@@ -1,0 +1,467 @@
+Tlibevent
+v5
+r1
+cCheck dependencies
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/liblibevent.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c0000000051579EEC00000000000000CC
+t1364696812
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/assert.h
+c0000000050DB03920000000000000F6E
+t1356530578
+s3950
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/errno.h
+c0000000050DB039200000000000003EB
+t1356530578
+s1003
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
+c0000000050DB03930000000000004763
+t1356530579
+s18275
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
+c0000000050DB039300000000000030A7
+t1356530579
+s12455
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
+c0000000050DB03930000000000001A3A
+t1356530579
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/ioctl.h
+c0000000050DB0394000000000000116C
+t1356530580
+s4460
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/time.h
+c0000000050DB03940000000000001E64
+t1356530580
+s7780
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/types.h
+c0000000050DB03940000000000002905
+t1356530580
+s10501
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/unistd.h
+c0000000050DB03940000000000006662
+t1356530580
+s26210
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/4.2/include/stdarg.h
+c0000000051579ED10000000000000810
+t1364696785
+s2064
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c
+c00000000515508B70000000000002E12
+t1364527287
+s11794
+i"config-libevent.h"
+i<winsock2.h>
+i<windows.h>
+i<sys/types.h>
+i<sys/time.h>
+i<sys/ioctl.h>
+i<assert.h>
+i<errno.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdarg.h>
+i<unistd.h>
+i"event.h"
+i"config-libevent.h"
+i"evutil.h"
+i"./log.h"
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/liblibevent.a
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/libevent.LinkFileList
+c0000000051A01F0000000000000006DC
+t1369448192
+s1756
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o
+t2
+s0
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c
+c00000000515508B70000000000002ABF
+t1364527287
+s10943
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c
+c00000000515508B700000000000151C3
+t1364527287
+s86467
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c
+c00000000515508B70000000000005956
+t1364527287
+s22870
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.h
+c00000000515508B70000000000009856
+t1364527287
+s38998
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c
+c00000000515508B70000000000002636
+t1364527287
+s9782
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c
+c00000000515508B70000000000001BCA
+t1364527287
+s7114
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.h
+c00000000515508B70000000000001599
+t1364527287
+s5529
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c
+c00000000515508B70000000000010E87
+t1364527287
+s69255
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c
+c00000000515508B70000000000002BD1
+t1364527287
+s11217
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c
+c00000000515508B700000000000010DE
+t1364527287
+s4318
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.h
+c00000000515508B7000000000000086A
+t1364527287
+s2154
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/mac/config-libevent.h
+c00000000515508B70000000000001CFC
+t1364527287
+s7420
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c
+c00000000515508B7000000000000241C
+t1364527287
+s9244
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c
+c00000000515508B700000000000023A4
+t1364527287
+s9124
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c
+c00000000515508B700000000000024C2
+t1364527287
+s9410
+
+N/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c
+c00000000515508B70000000000000A1C
+t1364527287
+s2588
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c
+r0
+
+CBuild AST from /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf60a2b805650b741^fda244805650b741^---0#1#0#--18"Check dependencies36"99CD744D-FC29-4352-AD99-ACD1539CA47E-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.365990
+e391140992.548513
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c9dda5d805650b741^787b8c805650b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c0000000000000000^2887"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.o buffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/buffer.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/buffer.o36"1013D4FE-6FAD-4F13-BFFA-9CA7876D827F-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.416075
+e391140992.539752
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.cb1a66a805650b741^da388a805650b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c0000000000000000^2899"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.o evbuffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evbuffer.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evbuffer.o36"5C6F78F3-DB99-491D-9617-B9BC218EC137-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.541151
+e391140993.111107
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c:1335:28: warning: implicit conversion loses integer precision: 'const off_t' (aka 'const long long') to 'int' [-Wshorten-64-to-32]
+o                        return table->labels[i].pos;
+o                        ~~~~~~ ~~~~~~~~~~~~~~~~~^~~
+o/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c:1711:22: warning: implicit conversion loses integer precision: 'off_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32]
+o        req->response_len = j;
+o                          ~ ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c2ead8a805650b741^a4711c815650b741^-607"/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c:1335:28: warning: implicit conversion loses integer precision: 'const off_t' (aka 'const long long') to 'int' [-Wshorten-64-to-32]                        return table->labels[i].pos;                        ~~~~~~ ~~~~~~~~~~~~~~~~~^~~/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c:1711:22: warning: implicit conversion loses integer precision: 'off_t' (aka 'long long') to 'size_t' (aka 'unsigned long') [-Wshorten-64-to-32]        req->response_len = j;                          ~ ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@91"Implicit conversion loses integer precision: 'const off_t' (aka 'const long long') to 'int'-391140993#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^1334#27#1334#27#38133#0#14"Semantic Issue2(3@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^1334#10#1334#30#38116#17#3@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^1334#3#1334#9#38109#0#-2@104"Implicit conversion loses integer precision: 'off_t' (aka 'long long') to 'size_t' (aka 'unsigned long')-391140993#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^1710#21#1710#21#47650#0#14"Semantic Issue2(3@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^1710#21#1710#22#47650#0#3@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^1710#19#1710#20#47648#0#-0#0#0#-19%DVTDocumentLocation4@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c0000000000000000^2881"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.o evdns.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evdns.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evdns.o36"1538E03F-4F9E-40EA-9ECE-7C3D412F1525-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.673389
+e391140992.844587
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/event.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c9484ac805650b741^0d37d8805650b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c0000000000000000^2881"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.o event.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event.o36"8EB14DD4-4956-401C-8ED9-F67CDD21AC6D-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.549828
+e391140992.667783
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.cdae48c805650b741^5401ab805650b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c0000000000000000^2929"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.o event_tagging.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/event_tagging.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/event_tagging.o36"9931F1CA-B90A-4EDB-A5BF-863ED500194A-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.674102
+e391140992.747199
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.ccdb1ac805650b741^3352bf805650b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c0000000000000000^2887"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.o evutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/evutil.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/evutil.o36"46526FBB-F277-43CE-8823-0AFA36877DE5-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.748512
+e391140993.157486
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/http.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.ccfbdbf805650b741^ee5c28815650b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c0000000000000000^2875"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.o http.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/http.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/http.o36"6EB5B978-076F-4FE2-A3B1-AE8D9DDB15FE-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.845933
+e391140992.992991
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.ca3afd8805650b741^d7fa02815650b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c0000000000000000^2887"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.o kqueue.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/kqueue.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/kqueue.o36"4D0BAEAE-B133-49D1-99F7-D76893D0464B-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140992.994387
+e391140993.072228
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/log.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c78b3fe805650b741^2d9414815650b741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c0000000000000000^2869"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.o log.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/log.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/log.o36"E6260CF5-EDE6-41C6-97E2-5C91A33A9E36-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140993.036808
+e391140993.155837
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c718f09815650b741^250328815650b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c0000000000000000^2875"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.o poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/poll.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/poll.o36"C7D29FC6-2C2C-4AAB-8C61-BB5C6DB33233-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140993.122839
+e391140993.219746
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/select.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c0c0520815650b741^8c4c38815650b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c0000000000000000^2887"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.o select.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/select.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/select.o36"9AE0FB2F-6971-4BFB-9245-6C98F05D5C4F-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140993.156707
+e391140993.289289
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c3e3f28815650b741^21b04e815650b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c0000000000000000^2887"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.o signal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/signal.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/signal.o36"17453664-B405-4326-ACDD-73140005A877-
+
+CCompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s391140993.156687
+e391140993.198447
+r1
+xCompileC
+xbuild/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c753e28815650b741^e7df32815650b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c0000000000000000^2893"CompileC build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o strlcpy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DHAVE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-generated-files.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-own-target-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-all-target-headers.hmap -iquote /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/libevent-project-headers.hmap -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources/i386 -I/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/DerivedSources -F/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -MMD -MT dependencies -MF /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.d --serialize-diagnostics /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.dia -c /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/strlcpy.c -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o36"DDB75617-E7E0-4E71-8984-DF5DFFA6AE8E-
+
+CLibtool /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/liblibevent.a normal i386
+s391140993.389937
+e391140993.703504
+r1
+xLibtool
+x/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/liblibevent.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Libtool build/Debug/liblibevent.a normal i386bbf063815650b741^6f2cb4815650b741^-253"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/strlcpy.o has no symbols-0#0#0#--721"Libtool build/Debug/liblibevent.a normal i386    cd /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug -filelist /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/libevent.build/Debug/libevent.build/Objects-normal/i386/libevent.LinkFileList -o /Users/isaac/work/sg/engine/src/Network/libevent-1.4.14b-stable/build/Debug/liblibevent.a36"5DB37858-A355-4923-B9C8-BE2B11A30CF3-
+
