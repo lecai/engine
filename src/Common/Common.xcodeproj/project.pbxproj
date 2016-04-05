@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84C5FEAD1CB36D5F001A4B8A /* Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84C5FEAC1CB36D5F001A4B8A /* Common.h */; };
-		84C5FEAF1CB36D5F001A4B8A /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FEAE1CB36D5F001A4B8A /* Common.m */; };
+		84C5FEBA1CB370A8001A4B8A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FEB81CB370A8001A4B8A /* Timer.cpp */; };
+		84C5FEBD1CB370B4001A4B8A /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FEBB1CB370B4001A4B8A /* Log.cpp */; };
+		84C5FEC01CB370BE001A4B8A /* FileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FEBE1CB370BE001A4B8A /* FileStream.cpp */; };
+		84C5FEC31CB370CB001A4B8A /* BaseTickMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FEC11CB370CB001A4B8A /* BaseTickMgr.cpp */; };
+		84C5FEC61CB370D8001A4B8A /* TickMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84C5FEC41CB370D8001A4B8A /* TickMgr.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +21,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				84C5FEAD1CB36D5F001A4B8A /* Common.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +28,18 @@
 
 /* Begin PBXFileReference section */
 		84C5FEA91CB36D5F001A4B8A /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C5FEAC1CB36D5F001A4B8A /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		84C5FEAE1CB36D5F001A4B8A /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		84C5FEB51CB37070001A4B8A /* Std.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Std.h; sourceTree = "<group>"; };
+		84C5FEB61CB37085001A4B8A /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		84C5FEB81CB370A8001A4B8A /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		84C5FEB91CB370A8001A4B8A /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		84C5FEBB1CB370B4001A4B8A /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		84C5FEBC1CB370B4001A4B8A /* Log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Log.hpp; sourceTree = "<group>"; };
+		84C5FEBE1CB370BE001A4B8A /* FileStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileStream.cpp; sourceTree = "<group>"; };
+		84C5FEBF1CB370BE001A4B8A /* FileStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileStream.hpp; sourceTree = "<group>"; };
+		84C5FEC11CB370CB001A4B8A /* BaseTickMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTickMgr.cpp; sourceTree = "<group>"; };
+		84C5FEC21CB370CB001A4B8A /* BaseTickMgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseTickMgr.hpp; sourceTree = "<group>"; };
+		84C5FEC41CB370D8001A4B8A /* TickMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TickMgr.cpp; sourceTree = "<group>"; };
+		84C5FEC51CB370D8001A4B8A /* TickMgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TickMgr.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +56,18 @@
 		84C5FEA01CB36D5F001A4B8A = {
 			isa = PBXGroup;
 			children = (
-				84C5FEAB1CB36D5F001A4B8A /* Common */,
+				84C5FEC41CB370D8001A4B8A /* TickMgr.cpp */,
+				84C5FEC51CB370D8001A4B8A /* TickMgr.hpp */,
+				84C5FEC11CB370CB001A4B8A /* BaseTickMgr.cpp */,
+				84C5FEC21CB370CB001A4B8A /* BaseTickMgr.hpp */,
+				84C5FEBE1CB370BE001A4B8A /* FileStream.cpp */,
+				84C5FEBF1CB370BE001A4B8A /* FileStream.hpp */,
+				84C5FEBB1CB370B4001A4B8A /* Log.cpp */,
+				84C5FEBC1CB370B4001A4B8A /* Log.hpp */,
+				84C5FEB81CB370A8001A4B8A /* Timer.cpp */,
+				84C5FEB91CB370A8001A4B8A /* Timer.hpp */,
+				84C5FEB61CB37085001A4B8A /* Types.h */,
+				84C5FEB51CB37070001A4B8A /* Std.h */,
 				84C5FEAA1CB36D5F001A4B8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +78,6 @@
 				84C5FEA91CB36D5F001A4B8A /* libCommon.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		84C5FEAB1CB36D5F001A4B8A /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				84C5FEAC1CB36D5F001A4B8A /* Common.h */,
-				84C5FEAE1CB36D5F001A4B8A /* Common.m */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C5FEAF1CB36D5F001A4B8A /* Common.m in Sources */,
+				84C5FEC31CB370CB001A4B8A /* BaseTickMgr.cpp in Sources */,
+				84C5FEBD1CB370B4001A4B8A /* Log.cpp in Sources */,
+				84C5FEC61CB370D8001A4B8A /* TickMgr.cpp in Sources */,
+				84C5FEC01CB370BE001A4B8A /* FileStream.cpp in Sources */,
+				84C5FEBA1CB370A8001A4B8A /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
