@@ -16,18 +16,18 @@ namespace Net
 			eCS_Connecting,
 			eCS_Connected,
 		};
-        
+
 		enum eBufSize
 		{
 			eBS_MaxOutBufferSize = 1024 * 16,
 			eBS_MaxInBufferSize = 1024 * 128,
 		};
-        
+
 	public:
 		CConnector(IEventReactor* pReactor);
 		virtual ~CConnector(void);
-        
-        
+
+
 		void		GetRemoteIpAddress(char* szBuf, uint32 uBufSize);
 		bool		Connect(const CNetAddr& addr, const timeval * time = NULL);
 		void		SetCallbackFunc( ConnectorFuncOnDisconnected pOnDisconnected,
@@ -35,10 +35,10 @@ namespace Net
                                     ConnectorFuncOnConnectted pOnConnectted,
                                     ConnectorFuncOnSomeDataSend pOnSomeDataSend,
                                     ConnectorFuncOnSomeDataRecv pOnSomeDataRecv);
-        
+
 		void*	GetContext(void) const;
 		void		SetContext(void* pContext);
-        
+
 		PipeResult Send(const void* pData, uint32 uSize);
 		void		ShutDown();
 		void*	GetRecvData()const;
@@ -53,44 +53,43 @@ namespace Net
 		bool		IsConnecting();
 		bool		IsDisconnected();
 		void		Release();
-		
-        
+
+
 	private:
-        
+
 		IEventReactor*	GetReactor();
 		bool		RegisterToReactor();
 		bool		UnRegisterFromReactor();
-        
+
 		static void	lcb_OnConnectResult(int Socket, short nEventMask, void *arg);
 		static void	lcb_OnPipeRead(struct bufferevent* bev, void* arg);
 		static void	lcb_OnPipeWrite(bufferevent* bev, void* arg);
 		static void	lcb_OnPipeError(bufferevent* bev, int16 nWhat, void* arg);
-        
+
 		eConnectorState GetState();
 		void SetState(eConnectorState eState);
-        
+
 		void OnConnectted();
-        
+
 		void HandleInput(int32 Socket, int16 nEventMask, void* arg);
-        
+
 		void ProcessSocketError();
 	private:
 		IEventReactor*			m_pReactor;
-        
+
 		ConnectorFuncOnDisconnected		m_pFuncOnDisconnected;
 		ConnectorFuncOnConnectFailed		m_pFuncOnConnectFailed;
 		ConnectorFuncOnConnectted			m_pFuncOnConnectted;
 		ConnectorFuncOnSomeDataSend		m_pFuncOnSomeDataSend;
 		ConnectorFuncOnSomeDataRecv		m_pFuncOnSomeDataRecv;
-        
+
 		void*						m_pContext;
 		CNetAddr				m_Addr;
 		CSocket					m_Socket;
 		eConnectorState		m_eState;
 		bufferevent*				m_pStBufEv;
 		event						m_ConnectEvent;
-		uint32						m_uMaxOutBufferSize;		
-		uint32						m_uMaxInBufferSize;			
+		uint32						m_uMaxOutBufferSize;
+		uint32						m_uMaxInBufferSize;
 	};
 }
-

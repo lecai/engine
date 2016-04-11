@@ -6,6 +6,7 @@
 #include "INetWork.h"
 #include "event.h"
 
+
 namespace Net
 {
 	enum eListenerState
@@ -13,7 +14,7 @@ namespace Net
 		eLS_UnListen=0,
 		eLS_Listened,
 	};
-	
+
 	class NETWORK_API CListener : public IListener
 	{
 	public:
